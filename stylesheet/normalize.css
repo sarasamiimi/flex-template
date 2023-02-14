@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: inherit
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+section,
+header,
+footer,
+div,
+aside,
+nav,
+article,
+figure,
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
